@@ -9,6 +9,7 @@ body {
 /* banner area */
 .top-banner {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
   width: 100%;
   height: 100vh;
@@ -66,3 +67,45 @@ body {
 }
 
 /* end of banner area */
+
+/* about me section */
+.about-me {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(./images/7.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: nowrap;
+  margin-top: 120px;
+}
+.about-image img {
+  width: 450px;
+  height: auto;
+}
+.about-content {
+  margin-top: 60px;
+}
+.about-content h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  color: #707070;
+  width: 444px;
+  height: 54px;
+  margin: 10px;
+}
+.about-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  width: 444px;
+  height: 160px;
+  margin: 10px;
+}
+.contact-btn {
+  margin-top: 80px;
+}
+/* end of about me section */
