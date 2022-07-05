@@ -109,3 +109,121 @@ body {
   margin-top: 80px;
 }
 /* end of about me section */
+/* recipes area */
+.recipes-area {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  background-color: white;
+  opacity: 0.8;
+}
+.recipes-content {
+  text-align: center;
+}
+.recipes-content h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #676767;
+  margin-bottom: 20px;
+}
+.recipes-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #252525;
+  width: 706px;
+  height: 69px;
+}
+/* end of recipes area */
+/* card area */
+.card-area {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.card-1 img {
+  width: 480px;
+  height: 280px;
+  padding-top: 15px;
+}
+.card-1 {
+  background: #ffffff;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  text-align: center;
+}
+.card-1 h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-1 p {
+  width: 534px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #18191f;
+  margin: 30px 20px;
+}
+
+/* end of card area */
+/* followers area */
+.followers-area {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 50px 50px 100px;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 30px gray;
+}
+.followers h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #18191f;
+}
+.followers p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18191f;
+}
+/* end of followers area */
+footer {
+  background: #0b0d17;
+  text-align: center;
+  width: 100%;
+  padding: 50px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+footer h2 {
+  color: #5b5b5b;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+}
+footer p {
+  color: #e0e0e0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
